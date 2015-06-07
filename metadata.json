@@ -1,0 +1,8 @@
+{
+  "uuid": "centre-window@alex-smith.me.uk",
+  "name": "Centre Window",
+  "description": "Implements a keyboard shortcut to centre a window",
+  "url": "https://github.com/aejsmith/gnome-shell-centre-window",
+  "shell-version": ["3.16"],
+  "settings-schema": "org.gnome.shell.extensions.centre-window"
+}

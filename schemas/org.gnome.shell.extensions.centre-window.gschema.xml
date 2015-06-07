@@ -1,0 +1,8 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.centre-window" path="/org/gnome/shell/extensions/centre-window/">
+    <key type="as" name="key">
+      <default><![CDATA[['<Super><Alt>c']]]></default>
+      <summary>Key to move focussed window to centre</summary>
+    </key>
+  </schema>
+</schemalist>
