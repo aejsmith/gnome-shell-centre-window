@@ -48,14 +48,10 @@ function centreWindow() {
     let rect = win.get_frame_rect();
     let monitor = Main.layoutManager.monitors[win.get_monitor()];
 
-    let x = monitor.x + Math.floor((monitor.width - rect.width) / 2);
-    let y = monitor.y + Math.floor((monitor.height - rect.height) / 2);
-
-    if (win.decorated) {
-        win.move_frame(true, x, y);
-    } else {
-        win.move(true, x, y);
-    }
+    win.move_frame(
+        true,
+        monitor.x + Math.floor((monitor.width - rect.width) / 2),
+        monitor.y + Math.floor((monitor.height - rect.height) / 2));
 }
 
 function enable() {
